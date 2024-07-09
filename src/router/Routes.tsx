@@ -1,4 +1,5 @@
 import App from "@/App";
+import HomePage from "@/components/home/home/HomePage";
 import AboutUs from "@/components/pages/about us/AboutUs";
 import CartPage from "@/components/pages/cart/CartPage";
 import ProductsPage from "@/components/pages/products/ProductsPage";
@@ -9,6 +10,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [
+      {
+        path: "/",
+        element: <HomePage />,
+      },
       {
         path: "/products",
         element: <ProductsPage />,

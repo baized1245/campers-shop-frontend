@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 export const darkMode = ["class"];
 export const content = [
@@ -17,9 +18,9 @@ export const theme = {
   },
   extend: {
     colors: {
-      primary: "#215ccc",
-      secondary: "#336fde",
-      lite: "#5285e3",
+      primary: "#4476cf",
+      secondary: "#507fd3",
+      lite: "#82a4df",
       border: "hsl(var(--border))",
       input: "hsl(var(--input))",
       ring: "hsl(var(--ring))",
@@ -75,4 +76,4 @@ export const theme = {
     },
   },
 };
-export const plugins = [require("tailwindcss-animate")];
+export const plugins = [require("daisyui")];

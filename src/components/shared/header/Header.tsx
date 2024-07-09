@@ -5,13 +5,15 @@ import SearchField from "./SearchField";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center">
+    <header className="flex justify-between items-center">
       <Link to="/">
         <img src={Logo} alt="Logo" className="w-44" />
       </Link>
       <SearchField />
-      <ProfileIcon />
-    </div>
+      <div className="hidden md:flex lg:flex">
+        <ProfileIcon />
+      </div>
+    </header>
   );
 };
 

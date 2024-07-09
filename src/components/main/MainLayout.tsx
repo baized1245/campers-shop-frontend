@@ -1,12 +1,14 @@
 import { Outlet } from "react-router-dom";
-import HomePage from "../pages/home/HomePage";
 import Wrapper from "../shared/wrapper/Wrapper";
 import Footer from "../shared/footer/Footer";
+import Header from "../shared/header/Header";
+import NavigationBar from "../shared/navbar/NavigationBar";
 
 const MainLayout = () => {
   return (
     <Wrapper>
-      <HomePage />
+      <Header />
+      <NavigationBar />
       <div className="min-h-screen">
         <Outlet />
       </div>
