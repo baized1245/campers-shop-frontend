@@ -17,7 +17,9 @@ export const theme = {
   },
   extend: {
     colors: {
-      primary: "#0074D9",
+      primary: "#215ccc",
+      secondary: "#336fde",
+      lite: "#5285e3",
       border: "hsl(var(--border))",
       input: "hsl(var(--input))",
       ring: "hsl(var(--ring))",
@@ -27,10 +29,10 @@ export const theme = {
       //   DEFAULT: "hsl(var(--primary))",
       //   foreground: "hsl(var(--primary-foreground))",
       // },
-      secondary: {
-        DEFAULT: "hsl(var(--secondary))",
-        foreground: "hsl(var(--secondary-foreground))",
-      },
+      // secondary: {
+      //   DEFAULT: "hsl(var(--secondary))",
+      //   foreground: "hsl(var(--secondary-foreground))",
+      // },
       destructive: {
         DEFAULT: "hsl(var(--destructive))",
         foreground: "hsl(var(--destructive-foreground))",
