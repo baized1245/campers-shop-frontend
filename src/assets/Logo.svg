@@ -2,7 +2,7 @@
   <!-- Tent -->
   <polygon points="4,1 5,3 6,1" fill="#215ccc" stroke="black" stroke-width="0.1"/>
   <!-- Tent Opening -->
-  <polygon points="4.75,1 5,2 5.25,1" fill="brown" stroke="black" stroke-width="0.1"/>
+  <polygon points="4.75,1 5,2 5.25,1" fill="#5285e3" stroke="black" stroke-width="0.1"/>
   <!-- Text -->
   <text x="5" y="4" font-family="serif" font-size="1" font-weight="bold" fill="#215ccc" text-anchor="middle">
     Campers Shop
