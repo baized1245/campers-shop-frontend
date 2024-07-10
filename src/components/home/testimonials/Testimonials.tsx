@@ -37,7 +37,7 @@ const testimonials: Testimonial[] = [
 
 const Testimonials: React.FC = () => {
   return (
-    <div className="mt-3">
+    <div className="my-3">
       <h2 className="text-primary text-2xl font-semibold text-center mb-3">
         What Our Customers Say
       </h2>

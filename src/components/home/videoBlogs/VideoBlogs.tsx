@@ -27,11 +27,11 @@ const videoBlogs: VideoBlog[] = [
 
 const VideoBlogs: React.FC = () => {
   return (
-    <div className="mt-3">
+    <div className="my-3">
       <h2 className="text-2xl font-semibold text-primary text-center mb-3">
         Video Blogs
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {videoBlogs.map((video, index) => (
           <div
             key={index}
