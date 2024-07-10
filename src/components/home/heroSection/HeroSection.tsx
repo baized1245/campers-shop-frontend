@@ -2,7 +2,7 @@ import HeroCarousel from "./carousel/HeroCarousel";
 
 const HeroSection = () => {
   return (
-    <div className="p-1">
+    <div className="">
       <HeroCarousel />
     </div>
   );
