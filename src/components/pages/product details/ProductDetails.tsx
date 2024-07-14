@@ -20,7 +20,7 @@ const ProductDetails = () => {
     );
 
   return (
-    <div className="grid grid-cols-3 gap-4">
+    <div className=" flex justify-center items-center min-h-screen p-4">
       <div className="card card-compact bg-base-100 w-auto shadow-xl">
         <figure>
           <img

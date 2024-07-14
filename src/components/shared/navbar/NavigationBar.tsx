@@ -9,6 +9,9 @@ const NavigationBar = () => {
       <NavLink to="/products">
         <p className="text-sm">Products</p>
       </NavLink>
+      <NavLink to="/productManagement">
+        <p className="text-sm">Products Management</p>
+      </NavLink>
       <NavLink to="/cart">
         <p className="text-sm">Cart</p>
       </NavLink>
